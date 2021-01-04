@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+:root {
+    --main-bg-color:brown;
+    --font1:'Baloo 2', cursive;
+    --font2:'Roboto', sans-serif;
+}
+
+.max-width1 {
+    max-width: 80vw;
+}
+.max-width2 {
+    max-width: 60vw;
+}
+.m-auto {
+    margin: auto;
+}
+.form-input {
+    padding: 0px 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+    font-size: 16px;
+}
+ 
+.btn {
+    padding: 0px 20px;
+    /* padding-top: 3px; */
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
